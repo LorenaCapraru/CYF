@@ -1,0 +1,78 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+ nav{
+  background-color:rgba(207, 165, 180, 0.6);
+          color:white;
+  font-size:20px;
+    padding:8px;
+         
+
+}
+     body{
+          font-family: sans-serif;
+             text-align: center;
+       background-color: rgba(248, 237,235,0.2);
+      }
+
+col-md-4{
+    text-align: center;
+    padding: 20px;
+
+}
+.col-md-6{
+    text-align: center;
+    padding: 40px;
+}
+.col-md-6 img {
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
+        width:50%;
+            height: auto;
+    margin-left: 10%;
+    border-radius: 50%;
+
+}
+.col-md-6 h4{
+  border-left-style:double;
+  border-color:grey;
+}
+      hr{
+          color:white;
+          width: 20%;
+      }
+main{
+    font-family: sans-serif;
+    color:darkgray;
+    font-size: 15px;
+
+}
+.c-site-footer{
+     bottom:0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    position:fixed;
+      background-color:rgba(207, 165, 180, 0.6);
+    color:white;
+  height:15%;
+  
+
+}
+      .c-site-header{
+          top:0;
+          left:0;
+          width: 100%;
+        position:fixed;
+          color:white;
+      }
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+     
+
